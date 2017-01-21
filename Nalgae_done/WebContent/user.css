@@ -1,0 +1,94 @@
+@charset "euc-kr";
+
+body {
+	width: 100%;
+	border-collapse: collapse;
+	border-style: dashed;
+	border-color: #ffda44;
+	border-width: 10px;
+	border-spacing: 100;
+	cell-spacing: 1;
+	table-border: 10px;
+	font-family: 배달의민족 도현;
+	padding: 15px;
+}
+table {
+	width: 700;
+	border-collapse: separate;
+	background-color: #ffffff;
+	border: 1;
+	border-color: #ffda44;
+	font-family: 배달의민족 도현;
+}
+
+th {
+	font-size: 12pt;
+	border: 1;
+	background-color: #ffda44;
+	border-color: #ffda44;
+	font-family: 배달의민족 도현;
+	padding: 15px 10px;
+}
+
+tr, td {
+	color: #000000;
+	background-color: #ffffff;
+	border-color: #ffda44;
+	font-family: 배달의민족 도현;
+	padding: 15px 10px;
+	style: background-color: #ffda44;
+}
+
+input [type="submit"], [type="reset"], [type="button"] {
+	font-size: 12pt;
+	border: 1;
+	background-color: #ffda44;
+	border-color: #ffda44;
+	font-family: 배달의민족 도현;
+	padding: 5px 8px;
+}
+.tt {
+	padding: 8px 12px;
+	border: 1;
+	border-collapse: collapse;
+	background-color: #ffda44;
+	border-color: #ffda44;
+	font-family: 배달의민족 도현;
+}
+.Button {
+	background-color: #ffda44;
+	font-family: 배달의민족 도현;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 8px 12px;
+}
+
+.myButton {
+	background-color: #ffda44;
+	display: inline-block;
+	cursor: pointer;
+	color: #000000;
+	font-family: 배달의민족 도현;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 8px 35px;
+}
+
+.myButton:hover {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffb700
+		), color-stop(1, #ff9900));
+	background: -moz-linear-gradient(top, #ffb700 5%, #ff9900 100%);
+	background: -webkit-linear-gradient(top, #ffb700 5%, #ff9900 100%);
+	background: -o-linear-gradient(top, #ffb700 5%, #ff9900 100%);
+	background: -ms-linear-gradient(top, #ffb700 5%, #ff9900 100%);
+	background: linear-gradient(to bottom, #ffb700 5%, #ff9900 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffb700',
+		endColorstr='#ff9900', GradientType=0);
+	background-color: #ffb700;
+}
+
+.myButton:active {
+	position: relative;
+	top: 1px;
+}
+
